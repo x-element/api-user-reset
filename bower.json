@@ -1,0 +1,7 @@
+{
+  "name": "api-user-reset",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.0"
+  }
+}
