@@ -5,8 +5,9 @@
 
     <iron-ajax id="ajax"
       method="[[method]]"
+      content-type="[[contentType]]"
       url="{{url}}"
-      handleAs="[[handleAs]]"
+      handle-as="[[handleAs]]"
       headers="{{headers}}"
       body="{{body}}"
       last-response="{{response}}"
@@ -24,6 +25,10 @@
       method: {
         type: String,
         value: 'POST'
+      },
+      contentType: {
+        type: String,
+        value: 'application/json'
       },
       collection: {
         type: String,
